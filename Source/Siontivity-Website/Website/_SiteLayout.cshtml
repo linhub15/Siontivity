@@ -27,22 +27,33 @@
 <body>
     <header>
         <div class="content-wrapper">
-            <div class="float-left">
-                <p class="site-title"><a href="~/">your logo here</a></p>
-            </div>
-            <div class="float-right">
-                <nav>
-                    <ul id="menu">
-                        <li><a href="~/">Home</a></li>
-                        <li><a href="@{VirtualPathUtility.ToAbsolute("~/"); }About">About</a></li>
-                        <li><a href="~/Gallery">Gallery</a></li>
+            <nav class="navbar navbar-toggleable-md navbar-light bg-faded">
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <a class="navbar-brand" href="#">Navbar</a>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="~/">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="@{VirtualPathUtility.ToAbsolute("~/"); }About">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="~/Gallery">Gallery</a>
+                        </li>
                     </ul>
-                </nav>
-            </div>
+                    <div>
+                        <p>Some Social media</p>
+                    </div>
+                </div>
+            </nav>
         </div>
     </header>
     <div id="body">
-        <section class="content-wrapper main-content clear-fix">
+        <section class="">
             @RenderBody()
         </section>
     </div>
