@@ -1,6 +1,8 @@
 ---
-# You don't need to edit this file, it's empty on purpose.
-# Edit theme's home layout instead if you wanna make some changes
-# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-layout: home
+layout: page
+title: S.Visualz
 ---
+
+<h1 class="jumbo-h1"> Sion Kim </h1>
+
+Here I will write some paragraphs about Sion Kim and his photography.

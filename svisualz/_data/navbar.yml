@@ -1,0 +1,12 @@
+docs_list_title: svisualz navbar list
+docs:
+
+- title: Home
+  url: /index.html
+
+- title: Gallery
+  url: /gallery.html
+
+- title: Blog
+  url:  /blog.html
+ 

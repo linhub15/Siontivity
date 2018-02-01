@@ -1,0 +1,28 @@
+---
+---
+// Example of variables in SCSS
+// $text-color: blue;
+
+// Page Navbar Styling
+#PageNav ul {
+  list-style-type: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+#PageNav ul li {
+  display: inline-block;
+  margin: 20px 0px 20px;
+}
+#PageNav ul li a {
+  padding: 20px 70px 20px;
+}
+
+
+// Home Page Styling
+
+.jumbo-h1 {
+  display: block;
+  text-align: center;
+  font-size: 65px;
+}
