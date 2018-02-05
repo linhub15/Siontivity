@@ -30,8 +30,12 @@
   font-style: bold;
 }
 
-// Site Wide
+// Site Wide Styling
+html {
+  height: 100%;
+}
 body {
+  min-height: 100%;
   color: white;
   background-color: #444444;
 }

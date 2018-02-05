@@ -2,20 +2,56 @@
 ---
 
 // Home Page Styling
-
-.jumbo-h1 {
-  display: block;
+body {
+  min-height: 100%;
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-areas:
+    "caption . gallery"
+    "caption . blog";
   text-align: center;
-  font-size: 65px;
 }
+
+
+#home-caption {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  height: 100%;
+  grid-area: caption;
+}
+
 .subtitle {
-  font-size: 49px;
-}
-.home-caption {
-  margin-top: 200px;
+  font-size: 50px;
 }
 
 .home-bg-img {
   background-image: url("/images/home-bg-img.jpg");
   background-size: 100%;
+}
+
+div#galleryLink {
+  grid-area: gallery;
+}
+
+div#blogLink {
+  grid-area: blog;
+}
+
+.nav-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.nav-link {
+  width: inherit;
+  padding: 70px;
+  font-size: 26px;
+}
+
+.nav-link:hover {
+
 }
