@@ -1,7 +1,9 @@
 ---
 ---
 // Example of variables in SCSS
-// $text-color: blue;
+
+$link-color: #ccccdd;
+$hover-color: #efefff;
 
 // Page Navbar Styling
 #PageNav ul {
@@ -18,7 +20,7 @@
   padding: 10px 70px 10px;
   margin: 10px 0 10px;
   transition: 0.2s ease;
-  color: #ccccdd;
+  color: $link-color;
   font-size: 20px;
   text-decoration: none;
 }
@@ -26,7 +28,7 @@
 #PageNav ul li a:hover{
   border-top: 2px solid #eeeeff;
   border-bottom: 2px solid #eeeeff;
-  color: #efefff;
+  color: $hover-color;
   font-style: bold;
 }
 

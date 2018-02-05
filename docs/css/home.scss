@@ -1,6 +1,9 @@
 ---
 ---
 
+$link-color: #ccccdd;
+$hover-color: #efefff;
+
 // Home Page Styling
 body {
   min-height: 100%;
@@ -18,7 +21,6 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-
   height: 100%;
   grid-area: caption;
 }
@@ -35,23 +37,23 @@ body {
 div#galleryLink {
   grid-area: gallery;
 }
-
 div#blogLink {
   grid-area: blog;
 }
 
-.nav-container {
+.nav-link {
+  color: $link-color;
   display: flex;
   flex-direction: column;
   justify-content: center;
-}
-
-.nav-link {
   width: inherit;
-  padding: 70px;
+  height: 100%;
   font-size: 26px;
+  transition: 0.3s ease;
 }
 
 .nav-link:hover {
-
+  color: $hover-color;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5));
+  font-size: 40px;
 }
