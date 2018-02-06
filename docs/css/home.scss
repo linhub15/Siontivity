@@ -49,11 +49,11 @@ div#blogLink {
   width: inherit;
   height: 100%;
   font-size: 26px;
-  transition: 0.3s ease;
+  transition: 0.3s ease-in-out;
 }
 
 .nav-link:hover {
   color: $hover-color;
-  background: linear-gradient(to right, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5));
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.1));
   font-size: 40px;
 }

@@ -8,9 +8,6 @@ title: Blog
 <div class="posts">
 
 {% for post in site.posts %}
-<div>
-  
-</div>
 <article class="blog-post">
 <h2>
   <a href="{{ post.url }}">
