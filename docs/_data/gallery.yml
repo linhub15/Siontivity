@@ -1,0 +1,11 @@
+med-src-url: /images/med-res/
+
+images:
+
+- alt-text:
+  sml-src: /images/sml-res/
+  med-src: /images/med-res/
+  lrg-src: /images/lrg-res/
+
+- 
+
