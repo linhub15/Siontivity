@@ -22,41 +22,32 @@ body {
 .home-bg {
   width: 100%;
   min-height: 30rem;
-  height: auto;
-  position: fixed;
+  max-height: 95%;
+  position: relative;
   background-image: url("/images/home-bg-img.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
+  overflow: auto;
 }
 
 .home-bg h1 {
   font-size: 3.5rem;
-  display: inline;
-}
-
-.home-bg p {
-  display: inline;
+  margin: 0;
 }
 
 .home-caption {
-  max-width: 15rem;
-  margin-top: 24rem;
-  margin-left: 3rem;
+  position: relative; 
+  left: 7%;
+  top: 7rem;
 }
 
 @media (min-width: 992px) {
   .home-bg {
     height: 100%;
   }
-
   .home-bg h1 {
     font-size: 5rem;
-  }
-
-  .home-caption {
-    min-width: 23rem;
-    margin-top: 30rem;
   }
 }
 
