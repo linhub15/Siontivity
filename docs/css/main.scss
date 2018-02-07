@@ -16,13 +16,16 @@ body {
   background-color: $site-bg-color;
 }
 
+p {
+  line-height: 2.3rem;
+}
+
 
 /* Landing Image */
 
 .home-bg {
   width: 100%;
-  min-height: 30rem;
-  max-height: 95%;
+  min-height: 34rem;
   position: relative;
   background-image: url("/images/home-bg-img.jpg");
   background-position: center center;
@@ -164,6 +167,8 @@ body {
 .menu-toggle:hover {
   background: #343a40;
 }
+
+/* Footer */
 
 /* Blog */
 
