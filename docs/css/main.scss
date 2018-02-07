@@ -5,7 +5,23 @@
 $link-color: #ccccdd;
 $hover-color: #efefff;
 
-// Page Navbar Styling
+// New Page Navbar Styling
+
+nav#PageNav {
+  overflow: hidden;
+  text-align: center;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+// OLD Page Navbar Styling
+/*
 #PageNav ul {
   list-style-type: none;
   text-align: center;
@@ -31,7 +47,7 @@ $hover-color: #efefff;
   color: $hover-color;
   font-style: bold;
 }
-
+*/
 // Site Wide Styling
 html {
   height: 100%;
