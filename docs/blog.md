@@ -3,22 +3,23 @@ layout: default
 title: Blog
 ---
 
-# Blog
+<div class="container">
 
-<div class="posts">
-
-{% for post in site.posts %}
-<article class="blog-post">
-<h2>
-  <a href="{{ post.url }}">
-    {{ post.title }}
-  </a>
-</h2>
-<p>Posted: 
-<time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{post.date | date: "%B %d, %Y" }}</time>
-</p>
-{{ post.content }}
-</article>
-{% endfor %}
-
+  <h1>S.Visualz Blog</h1>
+  <div class="row">
+  {% for post in site.posts %}
+  <article class="col-lg-7 col-md-9 mx-auto">
+    <h2>
+      <a href="{{ post.url }}">
+        {{ post.title }}
+      </a>
+    </h2>
+    <p>Posted on <time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{post.date | date: "%B %d, %Y" }}</time>
+    </p>
+    {{ post.content }}
+  <hr class="post-divider" />
+  </article>
+  
+  {% endfor %}
+  </div>
 </div>
