@@ -8,6 +8,7 @@ title: S.Visualz
   <p>Edmonton photographer.</p>
 </div>
 
+<!-- 
 <div id="galleryLink" class="nav-container">
   <a href="{{ site.url }}/gallery.html" class="nav-link">Gallery</a>
 </div>
@@ -16,3 +17,4 @@ title: S.Visualz
   <a href="{{ site.url }}/blog.html" class="nav-link">Blog</a>
 </div>
 
+-->
