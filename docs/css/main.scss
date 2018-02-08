@@ -45,6 +45,13 @@ p {
   top: 7rem;
 }
 
+.section-arrow {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%)
+}
+
 @media (min-width: 992px) {
   .home-bg {
     height: 100%;
@@ -53,7 +60,6 @@ p {
     font-size: 5rem;
   }
 }
-
 
 /* Nav Bar */
 
@@ -169,7 +175,12 @@ p {
 }
 
 /* Footer */
-
+.social-media-bar {
+  text-align: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border-top: 1px solid white;
+}
 /* Blog */
 
 .post-divider {
