@@ -14,12 +14,12 @@ html, body {
 body {
   color: white;
   background-color: $site-bg-color;
+  overflow: hidden;
 }
 
 p {
   line-height: 2.3rem;
 }
-
 
 /* Landing Image */
 
@@ -34,7 +34,7 @@ p {
   overflow: auto;
 }
 
-.home-bg h1 {
+#landing-page h1 {
   font-size: 3.5rem;
   margin: 0;
 }
@@ -47,7 +47,7 @@ p {
 
 .section-arrow {
   position: absolute;
-  bottom: 0;
+  bottom: 5rem;
   left: 50%;
   transform: translateX(-50%)
 }
@@ -59,6 +59,19 @@ p {
   .home-bg h1 {
     font-size: 5rem;
   }
+}
+
+section {
+  height: 100%;
+}
+
+#about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.text-area {
+  background-color: rgba(0,0,0,0.6);
 }
 
 /* Nav Bar */
@@ -175,12 +188,23 @@ p {
 }
 
 /* Footer */
+footer {
+  position: sticky;
+  bottom: 0;
+  background: linear-gradient(to bottom, rgba(0,0,0,0.4) 10% , rgba(0,0,0,0.7) 100%);
+}
+
 .social-media-bar {
-  text-align: center;
+  padding-left: 2rem;
   padding-top: 1rem;
   padding-bottom: 1rem;
-  border-top: 1px solid white;
+  //border-top: 1px solid white;
 }
+.social-media-bar a span {
+  display: inline-block;
+  vertical-align: middle;
+}
+
 /* Blog */
 
 .post-divider {
