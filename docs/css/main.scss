@@ -14,14 +14,42 @@ html, body {
 body {
   color: white;
   background-color: $site-bg-color;
-  overflow: hidden;
+  overflow-y: hidden;
 }
 
 p {
   line-height: 2.3rem;
 }
 
-/* Landing Image */
+h1 {
+  font-size: 3.5rem;
+  margin: 0;
+}
+
+.content-container {
+  height: 100%;
+  overflow-y: scroll;
+}
+
+section {
+  display: block;
+  height: 60%;
+}
+
+@media (min-width: 768px) {
+  h1 {
+    font-size: 5rem;
+  }
+
+  section {
+    display: block;
+    height: 100%;
+  }
+}
+
+
+/* HOME */
+
 #home {
   width: 100%;
   min-height: 34rem;
@@ -29,40 +57,27 @@ p {
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-
-  position: relative;
-  overflow: auto;
-}
-
-#landing-page h1 {
-  font-size: 3.5rem;
-  margin: 0;
 }
 
 .home-caption {
-  position: relative; 
-  left: 7%;
-  top: 7rem;
+  display: block;
+  margin: 10% auto auto 7%;
 }
 
-.section-arrow {
+#header {
+  position: relative;
+}
+.scroll-down {
   position: absolute;
-  bottom: 5rem;
-  left: 50%;
-  transform: translateX(-50%)
+  bottom: 0;
+  width: 100%;
+  text-align: center;
 }
 
-@media (min-width: 992px) {
-  #home {
-    height: 100%;
+@media (min-width: 768px) {
+  .scroll-down {
+    bottom: 5rem;
   }
-  #home h1 {
-    font-size: 5rem;
-  }
-}
-
-section {
-  height: 100%;
 }
 
 #about {
@@ -70,7 +85,7 @@ section {
   flex-direction: column;
   justify-content: center;
 }
-.text-area {
+.bg-default {
   background-color: rgba(0,0,0,0.6);
 }
 
@@ -206,11 +221,7 @@ footer {
 }
 
 /* Blog */
-
 #blog {
-  height: auto;
-  position: relative;
-  overflow: auto;
 }
 
 .post-divider {
