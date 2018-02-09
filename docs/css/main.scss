@@ -238,6 +238,13 @@ footer {
   padding-bottom: 1rem;
 }
 
+footer.active {
+    transition: opacity 1s ease-out;
+    opacity: 0; 
+    height: 0;
+    overflow: hidden;
+}
+
 .social-media-bar a span {
   display: inline-block;
   vertical-align: middle;
