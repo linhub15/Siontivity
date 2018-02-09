@@ -4,30 +4,26 @@ title: Blog
 id: blog
 ---
 
-<section id="blogs">
+<div class="header-caption">
+  <h1>Blog</h1>
+</div>
 
-<h1>S.Visualz Blog</h1>
 
-  {% for post in site.posts %}
+{% for post in site.posts %}
 
-  <article>
+<article class="post">
 
-    <h2>
-      <a href="{{ post.url }}">{{ post.title }}</a>
-    </h2>
+  <h2 class="post-title">
+    <a href="{{ post.url }}">{{ post.title }}</a>
+  </h2>
 
-    <p>Posted on <time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{post.date | date: "%B %d, %Y" }}</time>
-    </p>
+  <p class="post-date">Posted on <time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{post.date | date: "%B %d, %Y" }}</time>
+  </p>
+  <div class="post-content">
+  {{ post.content }}
+  </div>
+<hr class="post-divider" />
 
-    {{ post.content }}
+</article>
 
-  <hr class="post-divider" />
-
-  </article>
-
-  {% endfor %}
-
-</section>
-<section>
-  <p>some text</p>
-</section>
+{% endfor %}
