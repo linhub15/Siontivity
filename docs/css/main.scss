@@ -4,6 +4,8 @@
 $link-color: #ccccdd;
 $hover-color: #efefff;
 $site-bg-color: #444444;
+$scroll-down-color: rgba(255, 255, 255, 0.9);
+
 
 
 /* Site Wide Styling */
@@ -74,8 +76,10 @@ section {
   text-align: center;
 }
 .scroll-down a {
-  border: 0;
-  padding: 0;
+  color: $scroll-down-color;
+  padding: 45px 10px 4px 10px;
+  border: 2px solid $scroll-down-color;
+  border-radius: 100px;
 }
 
 @media (min-width: 768px) {
@@ -89,9 +93,6 @@ section {
   flex-direction: column;
   justify-content: center;
   background-color: rgba(0,0,0,0.6);
-}
-.bg-default {
-
 }
 
 /* Nav Bar */
