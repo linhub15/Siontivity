@@ -95,6 +95,23 @@ section {
 
 /* Nav Bar */
 
+.nav-header {
+  margin-top: 20px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.nav-header a {
+  color: $link-color;
+  text-align: center;
+  font-size: 40px;
+  padding: 15px;
+}
+
+.nav-header a:hover {
+  color: none;
+  background: none;
+}
+
 .nav-link {
   color: $link-color;
   display: flex;
@@ -125,7 +142,7 @@ section {
   -o-transition: all 0.4s ease 0s;
   transition: all 0.4s ease 0s;
   transform: translateX(250px);
-  background: #1D809F;
+  background: rgba(10,10,15,0.5);
   border-left: 1px solid rgba(255, 255, 255, 0.1);
 }
 

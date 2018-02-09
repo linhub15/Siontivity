@@ -1,14 +1,26 @@
-<a class="menu-toggle rounded" href="#">
-      <i class="fa fa-bars"></i>
-</a>
-<nav id="sidebar-wrapper">
-    <ul class="sidebar-nav">
-      {% for item in site.data.navbar.pages %}
-      <li class="nav-item">
-          <a href="{{ site.url }}{{ item.url }}" class="nav-link">{{ item.title }}</a>
-      </li>
 
-      {% endfor %}
-    </ul>
+<a class="menu-toggle rounded" href="#">
+  <i class="fa fa-bars"></i>
+</a>
+
+<nav id="sidebar-wrapper">
+<ul class="sidebar-nav">
+
+  <li class="nav-header">
+    <a href="{{ site.url }}/index.html">S.Visuals</a>
+  </li>
+  
+  {% for item in site.data.navbar.pages %}
+
+  <li class="nav-item">
+
+      <a href="{{ site.url }}{{ item.url }}" class="nav-link">{{ item.title }}</a>
+
+  </li>
+
+  {% endfor %}
+
+
+</ul>
 </nav>
 
