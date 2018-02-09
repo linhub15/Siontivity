@@ -7,6 +7,10 @@ $site-bg-color: #444444;
 $scroll-down-color: rgba(255, 255, 255, 0.9);
 
 
+// Images
+$home-bg-img: "/images/home-bg-img.jpg";
+$blog-bg-img: "/images/blog-bg-img.jpg";
+
 
 /* Site Wide Styling */
 
@@ -33,6 +37,16 @@ h1 {
   overflow-y: scroll;
 }
 
+
+.header-caption {
+  display: block;
+  width: 100%;
+  padding-top: 10%;
+  padding-right: auto;
+  padding-bottom: 10%;
+  padding-left: 7%;
+}
+
 section {
   display: block;
   height: 60%;
@@ -55,15 +69,10 @@ section {
 #home {
   width: 100%;
   min-height: 34rem;
-  background-image: url("/images/home-bg-img.jpg");
+  background-image: url($home-bg-img);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
-}
-
-.header-caption {
-  display: block;
-  margin: 10% auto 10% 7%;
 }
 
 #header {
@@ -71,7 +80,7 @@ section {
 }
 .scroll-down {
   position: absolute;
-  bottom: 0;
+  bottom: 2rem;
   width: 100%;
   text-align: center;
 }
@@ -251,6 +260,14 @@ footer.active {
 }
 
 /* Blog */
+.blog-bg-img {
+  background-image: url($blog-bg-img);
+  width: 100%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .post {
   margin-left: 10%;
   margin-right: auto;
@@ -261,6 +278,7 @@ footer.active {
   .post {
     margin-left: auto;
     max-width: 740px;
+
   }
 }
 
