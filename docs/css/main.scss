@@ -278,11 +278,13 @@ footer.hide {
 
 /* Blog */
 .profile-img {
+  display: inline;
   width: 230px;
   margin: auto;
   border-radius: 50%;
 }
 .blog-bg h1{
+  display: inline;
   /*background-image: url($sion-img);
   width: 20px;
   //background-position: center center;
