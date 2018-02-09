@@ -9,7 +9,8 @@ $scroll-down-color: rgba(255, 255, 255, 0.9);
 
 // Images
 $home-bg-img: "/images/home-bg-img.jpg";
-$blog-bg-img: "/images/blog-bg-img.jpg";
+//$blog-bg-img: "/images/blog-bg-img.jpg";
+$sion-img: "/images/sion-img.jpg";
 
 
 /* Site Wide Styling */
@@ -43,7 +44,7 @@ h1 {
   width: 100%;
   padding-top: 10%;
   padding-right: auto;
-  padding-bottom: 10%;
+  padding-bottom: 5%;
   padding-left: 7%;
 }
 
@@ -89,6 +90,10 @@ section {
   padding: 45px 10px 4px 10px;
   border: 2px solid $scroll-down-color;
   border-radius: 100px;
+}
+
+.btn-border:hover {
+  color: $hover-color;
 }
 
 @media (min-width: 768px) {
@@ -272,24 +277,31 @@ footer.hide {
 }
 
 /* Blog */
-.blog-bg-img {
-  background-image: url($blog-bg-img);
-  width: 100%;
-  background-position: center center;
-  background-repeat: no-repeat;
+.profile-img {
+  width: 230px;
+  margin: auto;
+  border-radius: 50%;
+}
+.blog-bg h1{
+  /*background-image: url($sion-img);
+  width: 20px;
+  //background-position: center center;
+  //background-repeat: no-repeat;
   background-size: cover;
+  */
 }
 
 .post {
+  margin-top: 2rem;
   margin-left: 10%;
-  margin-right: auto;
-  width: 90%;
+  margin-right: 10%;
+  width: 84%;
 }
 
 @media (min-width: 768px) {
   .post {
-    margin-top: 2rem;
     margin-left: auto;
+    margin-right: auto;
     max-width: 740px;
   }
 }
