@@ -22,15 +22,15 @@ p {
 }
 
 /* Landing Image */
-
-.home-bg {
+#home {
   width: 100%;
   min-height: 34rem;
-  position: relative;
   background-image: url("/images/home-bg-img.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
+
+  position: relative;
   overflow: auto;
 }
 
@@ -53,10 +53,10 @@ p {
 }
 
 @media (min-width: 992px) {
-  .home-bg {
+  #home {
     height: 100%;
   }
-  .home-bg h1 {
+  #home h1 {
     font-size: 5rem;
   }
 }
@@ -198,14 +198,20 @@ footer {
   padding-left: 2rem;
   padding-top: 1rem;
   padding-bottom: 1rem;
-  //border-top: 1px solid white;
 }
+
 .social-media-bar a span {
   display: inline-block;
   vertical-align: middle;
 }
 
 /* Blog */
+
+#blog {
+  height: auto;
+  position: relative;
+  overflow: auto;
+}
 
 .post-divider {
   line-height: 100%;
