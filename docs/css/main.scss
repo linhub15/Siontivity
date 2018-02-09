@@ -110,6 +110,7 @@ section {
 .nav-header a:hover {
   color: none;
   background: none;
+  text-decoration: none;
 }
 
 .nav-link {
@@ -127,7 +128,6 @@ section {
 .nav-link:hover {
   color: $hover-color;
   background: linear-gradient(to right, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.1));
-  //font-size: 40px;
 }
 
 #sidebar-wrapper {
@@ -162,7 +162,7 @@ section {
   padding: 15px;
 }
 
-.sidebar-nav li a:hover {
+.sidebar-nav >.nav-item a:hover {
   text-decoration: none;
   color: #fff;
   background: rgba(255, 255, 255, 0.2);
