@@ -5,6 +5,7 @@ $link-color: #ccccdd;
 $hover-color: #efefff;
 $site-bg-color: #444444;
 $scroll-down-color: rgba(255, 255, 255, 0.9);
+$section-overlay-color: rgba(0,0,0,0.6);
 
 
 // Images
@@ -70,7 +71,7 @@ section {
 #home {
   width: 100%;
   min-height: 34rem;
-  background-image: url($home-bg-img);
+  background: linear-gradient(to bottom, rgba(0,0,0,0),rgba(0,0,0,0), $section-overlay-color), url($home-bg-img);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -106,7 +107,7 @@ section {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-color: rgba(0,0,0,0.6);
+  background-color: $section-overlay-color;
 }
 
 /* Nav Bar */
@@ -252,9 +253,13 @@ footer {
 }
 
 .social-media-bar {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
   padding-left: 2rem;
   padding-top: 1rem;
   padding-bottom: 1rem;
+
 }
 
 footer.hide {
