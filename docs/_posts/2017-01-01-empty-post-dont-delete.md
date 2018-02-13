@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title:
 date: 2017-01-01 00:00:00
 category: none
