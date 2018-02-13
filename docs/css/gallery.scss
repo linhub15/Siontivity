@@ -1,19 +1,32 @@
 ---
 ---
 
-div .picture {
-	padding-left: 7%;
+$padding-size: 10px;
+
+div .photos {
+	max-width: 1500px;
+	margin-left: auto;
+	margin-right: auto;
+
+	padding-left: $padding-size;
+	padding-right: $padding-size;
+
+	-webkit-column-count: 3;
+	-webkit-column-gap:  $padding-size;
+	-moz-column-count: 3;
+	-moz-column-gap:  $padding-size;
+	column-count: 3;
+	column-gap:  $padding-size;
 }
 
 figure {
-    margin: 5px;
-
-    float: left;
-    width: 300px;
+	//max-width: 400px;
+	display: inline;
+	// line-height: 0;
 }
 
-
 figure img {
-    width: 100%;
-    height: auto;
+	margin-bottom: $padding-size;
+	max-width: 400px;
+	height: auto;
 }

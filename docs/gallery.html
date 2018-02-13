@@ -9,7 +9,7 @@ title: Gallery
   <h1 class="col-md-4">Gallery</h1>
 </div>
 
-<div class="picture">
+<div class="photos">
 
 	{% for img in site.data.gallery.images%}
 
@@ -96,7 +96,7 @@ title: Gallery
 		var $pswp = $('.pswp')[0];
 		var image = [];
 
-		$('.picture').each( function() {
+		$('.photos').each( function() {
 			var $pic     = $(this),
 			getItems = function() {
 				var items = [];
