@@ -1,11 +1,8 @@
-med-src-url: /images/med-res/
 
 images:
 
-- alt-text:
-  sml-src: /images/sml-res/
-  med-src: /images/med-res/
-  lrg-src: /images/lrg-res/
-
-- 
+- a-img-href: images/lrg-res/Thesis_002.jpg
+  a-img-dimensions: 3040x4399
+  med-img-src: images/lrg-res/Thesis_002.jpg
+  alt-text: Thesis_002
 

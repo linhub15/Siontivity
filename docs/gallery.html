@@ -6,21 +6,17 @@ title: Gallery
 <link rel="stylesheet" href="css/gallery.css">
 
 <div class="picture">
+
+	{% for img in site.data.gallery.images%}
+
 	<figure>
-		<a href="images/lrg-res/Thesis_002.jpg" data-size="3040x4399">
-			<img src="images/lrg-res/Thesis_002.jpg" alt="Thesis_002" width="300" height="200">
+		<a href="{{ img.a-img-href }}" data-size="{{ img.a-img-dimensions }}">
+			<img src="{{ img.med-img-src }}" alt="{{ img.alt-text }}">
 		</a>
 	</figure>
-	<figure>
-		<a href="images/lrg-res/Thesis_003.jpg" data-size="3922x6000">
-			<img src="images/lrg-res/Thesis_003.jpg" alt="Thesis_003" width="600" height="400">
-		</a>
-	</figure>
-	<figure>
-		<a href="images/lrg-res/Thesis_004.jpg" data-size="3820x6000">
-			<img src="images/lrg-res/Thesis_004.jpg" alt="Thesis_004" width="600" height="400">
-		</a>
-	</figure>
+
+	{% endfor %}
+
 </div>
 
 
