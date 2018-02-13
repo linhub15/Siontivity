@@ -4,7 +4,8 @@
 $link-color: #ccccdd;
 $hover-color: #efefff;
 $site-bg-color: #444444;
-$site-text-color: #DDDDDD;
+$text-color: #DDDDDD;
+$text-secondary-color: #BBBBBB;
 $scroll-down-color: rgba(255, 255, 255, 0.9);
 $section-overlay-color: rgba(0,0,0,0.6);
 
@@ -28,7 +29,7 @@ html, body {
   height: 100%;
 }
 body {
-  color: $site-text-color;
+  color: $text-color;
   background-color: $site-bg-color;
   overflow-y: hidden;
 }
@@ -317,6 +318,15 @@ footer.hide {
   margin-left: 10%;
   margin-right: 10%;
   width: 84%;
+}
+.post h2 {
+  margin-bottom: 0;
+}
+
+.post-date {
+  font-size: 13px;
+  color: $text-secondary-color;
+  line-height: 1rem;
 }
 
 @media (min-width: 768px) {
