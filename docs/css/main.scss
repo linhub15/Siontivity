@@ -245,18 +245,6 @@ section {
   background: $menu-toggle-hover-color;
 }
 
-/* Footer */
-footer {
-  position: sticky;
-  bottom: 0;
-  background: linear-gradient(to bottom, rgba(0,0,0,0.5) 30% , rgba(0,0,0,0.8) 100%);
-  -webkit-transition: all 0.4s ease 0s;
-  -moz-transition: all 0.4s ease 0s;
-  -ms-transition: all 0.4s ease 0s;
-  -o-transition: all 0.4s ease 0s;
-  transition: all 0.4s ease 0s;
-}
-
 .social-media-bar {
   position: fixed;
   bottom: 0;
@@ -282,7 +270,20 @@ footer {
   vertical-align: middle;
 }
 
+/* Footer */
+
 /*
+footer {
+  position: sticky;
+  bottom: 0;
+  background: linear-gradient(to bottom, rgba(0,0,0,0.5) 30% , rgba(0,0,0,0.8) 100%);
+  -webkit-transition: all 0.4s ease 0s;
+  -moz-transition: all 0.4s ease 0s;
+  -ms-transition: all 0.4s ease 0s;
+  -o-transition: all 0.4s ease 0s;
+  transition: all 0.4s ease 0s;
+}
+
 footer.hide {
   position: sticky;
   z-index: 2;
