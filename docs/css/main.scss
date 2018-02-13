@@ -17,6 +17,8 @@ $menu-toggle-hover-color: rgb(62, 68, 74);
 $social-media-color: rgba(200, 200 ,200 , 0.6);
 $social-media-hover-color: rgb(59, 89, 152);
 
+$post-h2-color: #EEEEEE;
+
 
 // Images
 $home-bg-img: "/images/home-bg-img.jpg";
@@ -314,6 +316,7 @@ footer.hide {
   width: 84%;
 }
 .post h2 {
+  color: $post-h2-color;
   margin-bottom: 0;
 }
 
