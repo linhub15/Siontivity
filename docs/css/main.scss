@@ -96,13 +96,7 @@ section {
   text-align: center;
   visibility: hidden;
 }
-.btn-border {
-  color: $scroll-down-color;
-}
 
-.btn-border:hover {
-  color: $hover-color;
-}
 
 @media (min-width: 768px) {
   .scroll-down {
