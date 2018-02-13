@@ -2,10 +2,27 @@
 layout: default
 title: Gallery
 ---
+<!--Gallery CSS --> 
+<link rel="stylesheet" href="css/gallery.css">
 
-Here I need to include HTML data to format the images
+<div class="picture">
+	<figure>
+		<a href="images/lrg-res/Thesis_002.jpg" data-size="3040x4399">
+			<img src="images/lrg-res/Thesis_002.jpg" alt="Thesis_002" width="300" height="200">
+		</a>
+	</figure>
+	<figure>
+		<a href="images/lrg-res/Thesis_003.jpg" data-size="3922x6000">
+			<img src="images/lrg-res/Thesis_003.jpg" alt="Thesis_003" width="600" height="400">
+		</a>
+	</figure>
+	<figure>
+		<a href="images/lrg-res/Thesis_004.jpg" data-size="3820x6000">
+			<img src="images/lrg-res/Thesis_004.jpg" alt="Thesis_004" width="600" height="400">
+		</a>
+	</figure>
+</div>
 
-<button id="btn">Open PhotoSwipe</button>
 
 <!-- Root element of PhotoSwipe. Must have class pswp. -->
 <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
@@ -75,42 +92,53 @@ Here I need to include HTML data to format the images
 </div>
 
 <script>
-	var openPhotoSwipe = function() {
-		var pswpElement = document.querySelectorAll('.pswp')[0];
+	(function($) {
+		var $pswp = $('.pswp')[0];
+		var image = [];
 
-    // build items array
-    var items = [
-    {
-    	src: 'https://placekitten.com/964/1024',
-    	w: 964,
-    	h: 1024
-    },
-    {
-    	src: 'https://placekitten.com/1000/700',
-    	w: 1000,
-    	h: 700    
-    },
-    {
-    	src: 'images/lrg-res/Thesis_004.jpg',
-    	w: 3820,
-    	h: 6000
-    }
-    ];
+		$('.picture').each( function() {
+			var $pic     = $(this),
+			getItems = function() {
+				var items = [];
+				$pic.find('a').each(function() {
+					var $href   = $(this).attr('href'),
+					$size   = $(this).data('size').split('x'),
+					$width  = $size[0],
+					$height = $size[1];
 
-    // define options (if needed)
-    var options = {
-             // history & focus options are disabled on CodePen        
-             history: false,
-             focus: false,
+					var item = {
+						src : $href,
+						w   : $width,
+						h   : $height
+					}
 
-             showAnimationDuration: 0,
-             hideAnimationDuration: 0
+					items.push(item);
+				});
+				return items;
+			}
 
-         };
+			var items = getItems();
 
-         var gallery = new PhotoSwipe( pswpElement, PhotoSwipeUI_Default, items, options);
-         gallery.init();
-     };
+			console.log(items);
 
-     document.getElementById('btn').onclick = openPhotoSwipe;
- </script>
+			$.each(items, function(index, value) {
+				image[index]     = new Image();
+				image[index].src = value['src'];
+			});
+
+			$pic.on('click', 'figure', function(event) {
+				event.preventDefault();
+
+				var $index = $(this).index();
+				var options = {
+					index: $index,
+					bgOpacity: 0.7,
+					showHideOpacity: true
+				}
+
+				var lightBox = new PhotoSwipe($pswp, PhotoSwipeUI_Default, items, options);
+				lightBox.init();
+			});
+		});
+	})(jQuery);
+</script>
