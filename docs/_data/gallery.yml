@@ -1,18 +1,86 @@
 
 images:
 
-  - a-img-href: images/photoswipe/Thesis_002.jpg
-  a-img-dimensions: 3040x4399
-  med-img-src: images/photoswipe/Thesis_002_md.jpg
-  alt-text: Thesis_002
+- a-img-href: images/photoswipe/nike.jpg
+  a-img-dimensions: 2000x1123
+  med-img-src: images/photoswipe/nike.jpg
+  alt-text: nike
 
-  - a-img-href: images/photoswipe/Thesis_003.jpg
-  a-img-dimensions: 3922x6000
-  med-img-src: images/photoswipe/Thesis_003_md.jpg
-  alt-text: Thesis_002
+- a-img-href: images/photoswipe/orb.jpg
+  a-img-dimensions: 1333x2000
+  med-img-src: images/photoswipe/orb.jpg
+  alt-text: orb
 
-  - a-img-href: images/photoswipe/Thesis_004.jpg
-  a-img-dimensions: 3820x6000
-  med-img-src: images/photoswipe/Thesis_004_md.jpg
-  alt-text: Thesis_002
+- a-img-href: images/photoswipe/portrait_1.jpg
+  a-img-dimensions: 1333x2000
+  med-img-src: images/photoswipe/portrait_1.jpg
+  alt-text: portrait_1
+
+- a-img-href: images/photoswipe/portrait_2.jpg
+  a-img-dimensions: 1275x2000
+  med-img-src: images/photoswipe/portrait_2.jpg
+  alt-text: portrait_2
+
+- a-img-href: images/photoswipe/portrait_3.jpg
+  a-img-dimensions: 1269x2000
+  med-img-src: images/photoswipe/portrait_3.jpg
+  alt-text: portrait_3
+
+- a-img-href: images/photoswipe/portrait_4.jpg
+  a-img-dimensions: 1382x2000
+  med-img-src: images/photoswipe/portrait_4.jpg
+  alt-text: portrait_4
+
+- a-img-href: images/photoswipe/portrait_5.jpg
+  a-img-dimensions: 2000x1451
+  med-img-src: images/photoswipe/portrait_5.jpg
+  alt-text: portrait_5
+
+- a-img-href: images/photoswipe/portrait_6.jpg
+  a-img-dimensions: 1333x2000
+  med-img-src: images/photoswipe/portrait_6.jpg
+  alt-text: portrait_6
+
+- a-img-href: images/photoswipe/portrait_7.jpg
+  a-img-dimensions: 1308x2000
+  med-img-src: images/photoswipe/portrait_7.jpg
+  alt-text: portrait_7
+
+- a-img-href: images/photoswipe/portrait_8.jpg
+  a-img-dimensions: 1293x2000
+  med-img-src: images/photoswipe/portrait_8.jpg
+  alt-text: portrait_8
+
+- a-img-href: images/photoswipe/portrait_9.jpg
+  a-img-dimensions: 1334x2000
+  med-img-src: images/photoswipe/portrait_9.jpg
+  alt-text: portrait_9
+
+- a-img-href: images/photoswipe/urban_1.jpg
+  a-img-dimensions: 1274x2000
+  med-img-src: images/photoswipe/urban_1.jpg
+  alt-text: urban_1
+
+- a-img-href: images/photoswipe/urban_2.jpg
+  a-img-dimensions: 2000x1379
+  med-img-src: images/photoswipe/urban_2.jpg
+  alt-text: urban_2
+
+- a-img-href: images/photoswipe/urban_3.jpg
+  a-img-dimensions: 1334x2000
+  med-img-src: images/photoswipe/urban_3.jpg
+  alt-text: urban_3
+
+- a-img-href: images/photoswipe/urban_4.jpg
+  a-img-dimensions: 1334x2000
+  med-img-src: images/photoswipe/urban_4.jpg
+  alt-text: urban_4
+
+- a-img-href: images/photoswipe/urban_5.jpg
+  a-img-dimensions: 2000x1334
+  med-img-src: images/photoswipe/urban_5.jpg
+  alt-text: urban_5
+
+
+
 
