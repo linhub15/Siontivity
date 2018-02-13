@@ -14,7 +14,7 @@ $side-bar-width: 270px;
 $menu-toggle-color: rgba(52, 58, 64, 0.8); //#343a40
 $menu-toggle-hover-color: rgb(62, 68, 74); 
 
-$social-media-color: rgba(100, 100 ,100 , 0.6);
+$social-media-color: rgba(200, 200 ,200 , 0.6);
 $social-media-hover-color: rgb(59, 89, 152);
 
 
@@ -272,7 +272,7 @@ footer {
 }
 
 .social-media-bar a:hover {
-  color: $social-media-hover-color;
+  color: $hover-color;
 }
 
 .social-media-bar a span {
