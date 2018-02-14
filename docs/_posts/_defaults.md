@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Post title
+title: 
 date: 
-category:
+category: 
 tags: 
 ---
