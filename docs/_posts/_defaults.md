@@ -1,8 +1,6 @@
 ---
 layout: default
 title: Post title
-date: {{ 'now' | date: "%Y %h" }}
+date: 
 tags: 
 ---
-
-Default Blog Post
