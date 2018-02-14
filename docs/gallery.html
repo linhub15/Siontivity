@@ -15,8 +15,8 @@ id: gallery
 	{% for img in site.data.gallery.images%}
 
 	<figure>
-		<a href="{{ img.a-img-href }}" data-size="{{ img.a-img-dimensions }}">
-			<img src="{{ img.sm-img-src }}" alt="{{ img.alt-text }}">
+		<a href="{{ site.url }}{{ site.data.gallery.img-dir }}{{ img.img }}" data-size="{{ img.dimensions }}">
+			<img src="{{ site.url }}{{ site.data.gallery.img-dir }}{{ img.sm-img }}" alt="{{ img.alt-text }}">
 		</a>
 	</figure>
 
