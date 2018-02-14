@@ -1,0 +1,6 @@
+---
+layout: default
+title: Post title
+date: {{ 'now' | date: "%Y %h" }}
+category: none
+---
