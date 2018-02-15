@@ -45,18 +45,27 @@ h1 {
   margin: 0;
 }
 
+h1, h2, h3 {
+  font-family: 'Montserrat', sans-serif;
+}
+
 .content-container {
   height: 100%;
   overflow-y: scroll;
 }
 
-
 .header-caption {
   display: block;
-  width: 100%;
+  text-align: center;
   padding-top: 10%;
-  padding-right: auto;
   padding-bottom: 5%;
+}
+
+#home .header-caption {
+  text-align: left;
+  display: block;
+  width: 100%;
+  padding-right: auto;
   padding-left: 7%;
 }
 
@@ -305,9 +314,6 @@ footer.hide {
   width: 230px;
   margin: auto;
   border-radius: 50%;
-}
-.blog-bg h1{
-  display: inline;
 }
 
 .post {
