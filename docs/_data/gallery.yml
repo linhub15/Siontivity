@@ -1,84 +1,84 @@
-
+---
 images:
 
-- a-img-href: images/photoswipe/nike.jpg
-  a-img-dimensions: 2000x1123
-  sm-img-src: images/photoswipe/nike_sm.jpg
+- img: nike.jpg
+  dimensions: 2000x1123
+  sm-img: nike_sm.jpg
   alt-text: nike
 
-- a-img-href: images/photoswipe/orb.jpg
-  a-img-dimensions: 1333x2000
-  sm-img-src: images/photoswipe/orb_sm.jpg
+- img: orb.jpg
+  dimensions: 1333x2000
+  sm-img: orb_sm.jpg
   alt-text: orb
 
-- a-img-href: images/photoswipe/portrait_1.jpg
-  a-img-dimensions: 1333x2000
-  sm-img-src: images/photoswipe/portrait_1_sm.jpg
+- img: portrait_1.jpg
+  dimensions: 1333x2000
+  sm-img: portrait_1_sm.jpg
   alt-text: portrait_1
 
-- a-img-href: images/photoswipe/portrait_2.jpg
-  a-img-dimensions: 1275x2000
-  sm-img-src: images/photoswipe/portrait_2_sm.jpg
+- img: portrait_2.jpg
+  dimensions: 1275x2000
+  sm-img: portrait_2_sm.jpg
   alt-text: portrait_2
 
-- a-img-href: images/photoswipe/portrait_3.jpg
-  a-img-dimensions: 1269x2000
-  sm-img-src: images/photoswipe/portrait_3_sm.jpg
+- img: portrait_3.jpg
+  dimensions: 1269x2000
+  sm-img: portrait_3_sm.jpg
   alt-text: portrait_3
 
-- a-img-href: images/photoswipe/portrait_4.jpg
-  a-img-dimensions: 1382x2000
-  sm-img-src: images/photoswipe/portrait_4_sm.jpg
+- img: portrait_4.jpg
+  dimensions: 1382x2000
+  sm-img: portrait_4_sm.jpg
   alt-text: portrait_4
 
-- a-img-href: images/photoswipe/portrait_5.jpg
-  a-img-dimensions: 2000x1451
-  sm-img-src: images/photoswipe/portrait_5_sm.jpg
+- img: portrait_5.jpg
+  dimensions: 2000x1451
+  sm-img: portrait_5_sm.jpg
   alt-text: portrait_5
 
-- a-img-href: images/photoswipe/portrait_6.jpg
-  a-img-dimensions: 1333x2000
-  sm-img-src: images/photoswipe/portrait_6_sm.jpg
+- img: portrait_6.jpg
+  dimensions: 1333x2000
+  sm-img: portrait_6_sm.jpg
   alt-text: portrait_6
 
-- a-img-href: images/photoswipe/portrait_7.jpg
-  a-img-dimensions: 1308x2000
-  sm-img-src: images/photoswipe/portrait_7_sm.jpg
+- img: portrait_7.jpg
+  dimensions: 1308x2000
+  sm-img: portrait_7_sm.jpg
   alt-text: portrait_7
 
-- a-img-href: images/photoswipe/portrait_8.jpg
-  a-img-dimensions: 1293x2000
-  sm-img-src: images/photoswipe/portrait_8_sm.jpg
+- img: portrait_8.jpg
+  dimensions: 1293x2000
+  sm-img: portrait_8_sm.jpg
   alt-text: portrait_8
 
-- a-img-href: images/photoswipe/portrait_9.jpg
-  a-img-dimensions: 1334x2000
-  sm-img-src: images/photoswipe/portrait_9_sm.jpg
+- img: portrait_9.jpg
+  dimensions: 1334x2000
+  sm-img: portrait_9_sm.jpg
   alt-text: portrait_9
 
-- a-img-href: images/photoswipe/urban_1.jpg
-  a-img-dimensions: 1274x2000
-  sm-img-src: images/photoswipe/urban_1_sm.jpg
+- img: urban_1.jpg
+  dimensions: 1274x2000
+  sm-img: urban_1_sm.jpg
   alt-text: urban_1
 
-- a-img-href: images/photoswipe/urban_2.jpg
-  a-img-dimensions: 2000x1379
-  sm-img-src: images/photoswipe/urban_2_sm.jpg
+- img: urban_2.jpg
+  dimensions: 2000x1379
+  sm-img: urban_2_sm.jpg
   alt-text: urban_2
 
-- a-img-href: images/photoswipe/urban_3.jpg
-  a-img-dimensions: 1334x2000
-  sm-img-src: images/photoswipe/urban_3_sm.jpg
+- img: urban_3.jpg
+  dimensions: 1334x2000
+  sm-img: urban_3_sm.jpg
   alt-text: urban_3
 
-- a-img-href: images/photoswipe/urban_4.jpg
-  a-img-dimensions: 1334x2000
-  sm-img-src: images/photoswipe/urban_4_sm.jpg
+- img: urban_4.jpg
+  dimensions: 1334x2000
+  sm-img: urban_4_sm.jpg
   alt-text: urban_4
 
-- a-img-href: images/photoswipe/urban_5.jpg
-  a-img-dimensions: 2000x1334
-  sm-img-src: images/photoswipe/urban_5_sm.jpg
+- img: urban_5.jpg
+  dimensions: 2000x1334
+  sm-img: urban_5_sm.jpg
   alt-text: urban_5
 
 

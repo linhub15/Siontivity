@@ -19,6 +19,8 @@ $social-media-hover-color: rgb(59, 89, 152);
 
 $post-h2-color: #EEEEEE;
 
+$header-font: 'Montserrat', sans-serif;
+
 
 // Images
 $home-bg-img: "/images/home-bg-img.jpg";
@@ -45,18 +47,27 @@ h1 {
   margin: 0;
 }
 
+h1, h2, h3 {
+  font-family: $header-font;
+}
+
 .content-container {
   height: 100%;
   overflow-y: scroll;
 }
 
-
 .header-caption {
   display: block;
-  width: 100%;
+  text-align: center;
   padding-top: 10%;
-  padding-right: auto;
   padding-bottom: 5%;
+}
+
+#home .header-caption {
+  text-align: left;
+  display: block;
+  width: 100%;
+  padding-right: auto;
   padding-left: 7%;
 }
 
@@ -165,6 +176,8 @@ section {
   transform: translateX($side-bar-width);
   background: rgba(10,10,15,1);
   border-left: 1px solid rgba(255, 255, 255, 0.1);
+
+  font-family: $header-font;
 }
 
 .sidebar-nav {
@@ -305,9 +318,7 @@ footer.hide {
   width: 230px;
   margin: auto;
   border-radius: 50%;
-}
-.blog-bg h1{
-  display: inline;
+  box-shadow: 4px 4px 10px rgba(10,10,10, 0.5);
 }
 
 .post {
