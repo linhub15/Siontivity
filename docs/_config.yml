@@ -43,7 +43,10 @@ plugins:
 #   - vendor/gems/
 #   - vendor/ruby/
 
-
+# minify css
+sass:
+  style: compressed
+  
 # minifier settings
 compress_html:
   clippings: []
