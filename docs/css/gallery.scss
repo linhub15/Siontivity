@@ -1,10 +1,10 @@
 ---
 ---
 
-$padding-size: 10px;
+$padding-size: 30px;
 
 div .photos {
-	max-width: 1500px;
+	max-width: 1400px;
 	margin-left: auto;
 	margin-right: auto;
 
@@ -28,6 +28,8 @@ figure img {
 	max-width: 440px;
 	max-height: 400px;
 	height: auto;
+	padding-right: 4px;
+	box-shadow: 4px 4px 10px rgba(10,10,10, 0.5);
 }
 
 @media (min-width: 768px) {

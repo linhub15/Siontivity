@@ -19,6 +19,8 @@ $social-media-hover-color: rgb(59, 89, 152);
 
 $post-h2-color: #EEEEEE;
 
+$header-font: 'Montserrat', sans-serif;
+
 
 // Images
 $home-bg-img: "/images/home-bg-img.jpg";
@@ -46,7 +48,7 @@ h1 {
 }
 
 h1, h2, h3 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: $header-font;
 }
 
 .content-container {
@@ -174,6 +176,8 @@ section {
   transform: translateX($side-bar-width);
   background: rgba(10,10,15,1);
   border-left: 1px solid rgba(255, 255, 255, 0.1);
+
+  font-family: $header-font;
 }
 
 .sidebar-nav {
