@@ -1,4 +1,4 @@
-//open and closes side nav bar
+/* open and closes side nav bar */
 $(".menu-toggle").click(function(e) {
 	e.preventDefault();
 	$("#sidebar-wrapper").toggleClass("active");

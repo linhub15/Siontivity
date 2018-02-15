@@ -135,7 +135,6 @@ var PhotoSwipeUI_Default =
 					e.stopPropagation();
 				}
 				_blockControlsTap = true;
-
 				// Some versions of Android don't prevent ghost click event 
 				// when preventDefault() was called on touchstart and/or touchend.
 				// 
