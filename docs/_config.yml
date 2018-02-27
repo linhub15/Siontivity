@@ -20,7 +20,7 @@ instagram-url: https://www.instagram.com/s.visualz
 description:
   Personal photography website of Sion Kim.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://svisualz.com" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://svisualz.com" # the base hostname & protocol for your site, e.g. http://example.com
 
 gallery-dir: /images/photoswipe/
 
