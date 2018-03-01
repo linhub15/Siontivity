@@ -29,6 +29,7 @@ gallery-dir: /images/photoswipe/
 markdown: kramdown
 theme:
 plugins:
+  - jekyll-sitemap
  
 
 # Exclude from processing.
