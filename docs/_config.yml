@@ -27,7 +27,6 @@ gallery-dir: /images/photoswipe/
 
 # Build settings
 markdown: kramdown
-plugins: []
 
 
 # Exclude from processing.
